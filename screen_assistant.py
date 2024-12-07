@@ -9,7 +9,7 @@ import time
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Set your Cohere API key
-cohere_api_key = "2mIRhceb2BtQFImdXpFo2Geyz7lAUGE1CtIp9pXV"
+cohere_api_key = "yourapikey"
 co = cohere.Client(api_key=cohere_api_key)
 
 # Function to select a region of the screen (user drag)
